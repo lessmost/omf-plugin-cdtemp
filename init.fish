@@ -4,3 +4,6 @@
 # * $package       package name
 # * $path          package path
 # * $dependencies  package dependencies
+if not set -q CDTEMPPATH
+  set -gx CDTEMPPATH /tmp
+end

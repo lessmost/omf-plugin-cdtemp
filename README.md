@@ -23,7 +23,7 @@ set -gx CDTEMPPATH /your/temp/folder
 ## Install
 
 ```fish
-$ omf install omf-plugin-cdtemp
+$ omf install https://github.com/zqlu/omf-plugin-cdtemp
 ```
 
 ## Usage
